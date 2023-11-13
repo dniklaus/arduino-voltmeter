@@ -1,19 +1,11 @@
-# wiring-skeleton
+# arduino-voltmeter
 Arduino Framework based Skeleton Embedded Application, powered by [PlatformIO](http://platformio.org "Cross-platform build system").
 
 With this project you have a good starting point to create your own application that shall be based on the Arduino Framework. 
 
 The project is able to run and has been tested on the following controller boards:
 
-* [Arduino Uno](https://store.arduino.cc/arduino-uno-rev3)
 * [Arduino Mega 2560](https://store.arduino.cc/arduino-mega-2560-rev3)
-* [Arduino Due](https://store.arduino.cc/arduino-due)
-* [Adafruit Feather M0](https://www.adafruit.com/?q=Adafruit%20Feather%20M0)
-* [Wemos D1 Mini](https://de.aliexpress.com/item/32764312651.html)
-* [NodeMcu](https://de.aliexpress.com/item/32733851178.html)
-* [Adafruit Huzzah ESP8266](https://learn.adafruit.com/adafruit-huzzah-esp8266-breakout)
-* [DoIt ESP32 DEVKIT V1](https://de.aliexpress.com/item/32807028338.html)
-* [LOLIN D32](https://www.wemos.cc/en/latest/d32/d32.html)
 
 It could be easily ported to many other controller boards, as long as the Arduino Framework is used with PlatformIO and the board is listed in the [PlatformIO boards registry](https://platformio.org/boards).
 
