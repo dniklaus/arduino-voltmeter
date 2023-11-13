@@ -18,8 +18,8 @@ void ProductDebug::setupProdDebugEnv(SerialCommand* sCmd)
   appDebug.setupDebugEnv();
 
   Serial.println();
-  Serial.println("---------------------------------------------");
-  Serial.println("Hello from Wiring Controller!");
-  Serial.println("---------------------------------------------");
+  Serial.println("----------------------------------------");
+  Serial.println("Hello from Arduino Voltmeter Controller!");
+  Serial.println("----------------------------------------");
   Serial.println();
 }

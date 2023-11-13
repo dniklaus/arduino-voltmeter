@@ -10,6 +10,7 @@
 
 class SerialCommand;
 class Indicator;
+class LcdKeypad;
 
 class App
 {
@@ -21,11 +22,10 @@ public:
 
   void loop();
 
-  void printBatteryVoltage();
-
 private:
   SerialCommand* m_sCmd;
   Indicator* m_led;
+  LcdKeypad* m_lcdKeypad;
 
 private:
   static const char s_termChar;
